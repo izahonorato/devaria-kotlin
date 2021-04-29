@@ -27,7 +27,7 @@ fun main(argumentos : Array<String>){
 
     if(estaConvidado && idade >= 18){
         println("Bem-vindo(a) à festa Kotlin!")
-    }else if(estaConvidado == false){
+    }else if(!estaConvidado){
         println("Você não está na lista de convidados")
     }else{
         println("Você é menor de idade, não é permitida entrada na festa")
